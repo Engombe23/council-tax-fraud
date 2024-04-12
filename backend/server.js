@@ -7,7 +7,11 @@ const path = require('path');
 
 
 server.use(express.json());
-server.use(cors());
+server.use(cors(
+  {
+    origin: ["https://council-tax-fraud-nh5d.vercel.app/"]
+  }
+));
 
 //Multer Configuration
 const multer = require("multer");
