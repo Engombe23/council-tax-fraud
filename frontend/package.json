@@ -43,5 +43,5 @@
   "engines": {
     "node": "20.11.1"
   },
-  "proxy": "http://localhost:4000/"
+  "proxy": "https://council-tax-fraud-hbc8.vercel.app/"
 }
