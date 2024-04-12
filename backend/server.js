@@ -13,6 +13,10 @@ server.use(cors(
   }
 ));
 
+server.get("/", (req, res) => {
+  res.json("Hello");
+})
+
 //Multer Configuration
 const multer = require("multer");
 const storage = multer.diskStorage({
