@@ -20,3 +20,4 @@ https://www.counciltaxisfraud.co.uk
 <h2>Deployment</h2>
 
 <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> 
+<a href="https://vercel.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg" alt="vercel" width="40" height="40" /></a>
