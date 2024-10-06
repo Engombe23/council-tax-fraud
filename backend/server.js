@@ -4,8 +4,14 @@ const mongoose = require('mongoose');
 const server = express();
 const cors = require('cors');
 const path = require('path');
+const RateLimit = require('express-rate-limit');
 
+const limiter = RateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // max 100 requests per windowMs
+});
 
+server.use(limiter);
 server.use(express.json());
 server.use(cors(
   {
